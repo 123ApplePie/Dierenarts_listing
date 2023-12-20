@@ -19,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/test','test');
 Route::view('/','guest.index')->name('Home');
+Route::view('/contact','guest.contact')->name('Contact');
+Route::view('/blog','guest.blog')->name('blog');
 
 // Routes for login
 // Route::middleware([
